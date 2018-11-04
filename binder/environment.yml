@@ -1,11 +1,14 @@
-name: example-environment
+name: lidar-environment
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.6
   - numpy
+  - matplotlib
+  - scipy
+  - scikit-image
+  - gdal
   - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
+    - pygdal
+    - lidar
+
