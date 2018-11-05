@@ -5,6 +5,10 @@ dependencies:
   - python=3.6
   - numpy
   - matplotlib
+  - scipy
+  - scikit-image=0.14
+  - gdal
   - pip:
-    - whitebox
+    - pygdal
+    - lidar
 
