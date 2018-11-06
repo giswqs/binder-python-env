@@ -1,10 +1,14 @@
-name: lidar-environment
+name: whitebox-environment
 channels:
   - conda-forge
 dependencies:
   - python=3.6
   - numpy
   - matplotlib
+  - imageio
   - pip:
     - whitebox
+    - tifffile
+    - requests
+    - googledrivedownloader
 
